@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Bash script that displays a list of currently running processes.
-
+# You cannot use pgrep
 # shellcheck disable=SC2009
 
-ps -a -u -x -f --forest | grep bash
+./1-list_your_processes | grep "bash"
